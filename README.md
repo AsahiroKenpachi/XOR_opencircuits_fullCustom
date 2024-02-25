@@ -1,4 +1,4 @@
-Xschem-Schmeatic For inverter (.sym and .sch)<br/>
+Xschem-Schmeatic For Xor gate (.sym and .sch)<br/>
 Magic -Layout (.mag)<br/>
 Ngspice - Simulation (.spice)<br/>
 Netgen - LVS (comp.out)<br/>
