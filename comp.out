@@ -1,0 +1,38 @@
+
+Circuit 1 cell sky130_fd_pr__nfet_01v8 and Circuit 2 cell sky130_fd_pr__nfet_01v8 are black boxes.
+Equate elements:  no current cell.
+Device classes sky130_fd_pr__nfet_01v8 and sky130_fd_pr__nfet_01v8 are equivalent.
+
+Circuit 1 cell sky130_fd_pr__pfet_01v8 and Circuit 2 cell sky130_fd_pr__pfet_01v8 are black boxes.
+Equate elements:  no current cell.
+Device classes sky130_fd_pr__pfet_01v8 and sky130_fd_pr__pfet_01v8 are equivalent.
+
+Subcircuit summary:
+Circuit 1: new4.spice                      |Circuit 2: xor.spice                       
+-------------------------------------------|-------------------------------------------
+sky130_fd_pr__nfet_01v8 (6)                |sky130_fd_pr__nfet_01v8 (6)                
+sky130_fd_pr__pfet_01v8 (6)                |sky130_fd_pr__pfet_01v8 (6)                
+Number of devices: 12                      |Number of devices: 12                      
+Number of nets: 10                         |Number of nets: 10                         
+---------------------------------------------------------------------------------------
+Netlists match uniquely with property errors.
+sky130_fd_pr__pfet_01v8:7 vs. sky130_fd_pr__pfet_01v8:M8:
+ w circuit1: 2   circuit2: 1   (delta=66.7%, cutoff=1%)
+sky130_fd_pr__pfet_01v8:1 vs. sky130_fd_pr__pfet_01v8:M5:
+ w circuit1: 2   circuit2: 1   (delta=66.7%, cutoff=1%)
+sky130_fd_pr__pfet_01v8:6 vs. sky130_fd_pr__pfet_01v8:M6:
+ w circuit1: 2   circuit2: 1   (delta=66.7%, cutoff=1%)
+sky130_fd_pr__pfet_01v8:5 vs. sky130_fd_pr__pfet_01v8:M11:
+ w circuit1: 2   circuit2: 1   (delta=66.7%, cutoff=1%)
+sky130_fd_pr__pfet_01v8:4 vs. sky130_fd_pr__pfet_01v8:M9:
+ w circuit1: 2   circuit2: 1   (delta=66.7%, cutoff=1%)
+sky130_fd_pr__pfet_01v8:2 vs. sky130_fd_pr__pfet_01v8:M7:
+ w circuit1: 2   circuit2: 1   (delta=66.7%, cutoff=1%)
+Cells have no pins;  pin matching not needed.
+Device classes new4.spice and xor.spice are equivalent.
+
+Final result: Circuits match uniquely.
+Property errors were found.
+
+The following cells had property errors:
+ new4.spice
